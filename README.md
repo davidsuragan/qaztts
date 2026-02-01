@@ -26,6 +26,10 @@ Netlify-ға деплой жасау үшін [GitHub Desktop](https://desktop.g
 
 ### 1. Backend (Netlify)
 
+**Маңызды:** Netlify-да `.env` файлы автоматты түрде оқылмайды. Барлық
+айнымалыларды Netlify Dashboard-тағы **Site configuration > Environment
+variables** бөліміне қолмен енгізу қажет.
+
 `backend/` папкасын Netlify-ға деплой жасап, `tts` функциясының URL-ін алыңыз.
 
 ### 2. Bot (Vercel)
@@ -37,7 +41,8 @@ npm install -g vercel
 vercel login
 ```
 
-`bot/` папкасына `.env` файлын жасап, барлық қажетті айнымалыларды жазыңыз:
+`bot/` папкасына `.env` файлын жасап, барлық қажетті айнымалыларды жазыңыз
+(Vercel `.env` файлын автоматты түрде оқиды):
 
 **Қажетті `.env` айнымалылары:**
 
