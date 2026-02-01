@@ -1,0 +1,244 @@
+{
+    "languages": {
+        "kk-KZ": {
+            "name": "Қазақ",
+            "flag": "kk.svg",
+            "keywords": [
+                "қазақша",
+                "казахский",
+                "kazakh",
+                "kk",
+                "kz",
+                "қазақ"
+            ],
+            "voices": [
+                {
+                    "name": "Aigul",
+                    "id": "AigulNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Daulet",
+                    "id": "DauletNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Akzhol",
+                    "id": "akzhol",
+                    "gender": "male",
+                    "provider": "ISSAI"
+                },
+                {
+                    "name": "Marzhan",
+                    "id": "marzhan",
+                    "gender": "female",
+                    "provider": "ISSAI"
+                }
+            ]
+        },
+        "ru-RU": {
+            "name": "Русский",
+            "flag": "ru.svg",
+            "keywords": [
+                "орысша",
+                "русский",
+                "russian",
+                "ru",
+                "орыс"
+            ],
+            "voices": [
+                {
+                    "name": "Dmitry",
+                    "id": "DmitryNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Svetlana",
+                    "id": "SvetlanaNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Alex",
+                    "id": "alex",
+                    "gender": "male",
+                    "provider": "ISSAI"
+                },
+                {
+                    "name": "Marina",
+                    "id": "marina",
+                    "gender": "female",
+                    "provider": "ISSAI"
+                }
+            ]
+        },
+        "en-US": {
+            "name": "English",
+            "flag": "en.svg",
+            "keywords": [
+                "ағылшынша",
+                "английский",
+                "english",
+                "en",
+                "ағылшын"
+            ],
+            "voices": [
+                {
+                    "name": "Ballad",
+                    "id": "ballad",
+                    "gender": "male",
+                    "provider": "ISSAI"
+                },
+                {
+                    "name": "Coral",
+                    "id": "coral",
+                    "gender": "female",
+                    "provider": "ISSAI"
+                },
+                {
+                    "name": "Lulu Lollipop",
+                    "id": "ocZQ262SsZb9RIxcQBOj",
+                    "gender": "female",
+                    "provider": "ElevenLabs"
+                },
+                {
+                    "name": "Arabella",
+                    "id": "Z3R5wn05IrDiVCyEkUrK",
+                    "gender": "female",
+                    "provider": "ElevenLabs"
+                },
+                {
+                    "name": "Bradford",
+                    "id": "NNl6r8mD7vthiJatiJt1",
+                    "gender": "male",
+                    "provider": "ElevenLabs"
+                },
+                {
+                    "name": "Viraj DRL",
+                    "id": "tSVwqkJGEKjLklhiN0Nx",
+                    "gender": "male",
+                    "provider": "ElevenLabs"
+                },
+                {
+                    "name": "Ava",
+                    "id": "AvaNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Andrew",
+                    "id": "AndrewNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Emma",
+                    "id": "EmmaNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Brian",
+                    "id": "BrianNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Ana",
+                    "id": "AnaNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Andrew",
+                    "id": "AndrewMultilingualNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Aria",
+                    "id": "AriaNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Ava",
+                    "id": "AvaMultilingualNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Brian",
+                    "id": "BrianMultilingualNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Christopher",
+                    "id": "ChristopherNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Emma",
+                    "id": "EmmaMultilingualNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Eric",
+                    "id": "EricNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Guy",
+                    "id": "GuyNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Jenny",
+                    "id": "JennyNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Michelle",
+                    "id": "MichelleNeural",
+                    "gender": "female",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Roger",
+                    "id": "RogerNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                },
+                {
+                    "name": "Steffan",
+                    "id": "SteffanNeural",
+                    "gender": "male",
+                    "provider": "Microsoft"
+                }
+            ]
+        }
+    },
+    "genderKeywords": {
+        "female": [
+            "әйел",
+            "woman",
+            "female",
+            "женский"
+        ],
+        "male": [
+            "ер",
+            "man",
+            "male",
+            "мужской"
+        ]
+    }
+}

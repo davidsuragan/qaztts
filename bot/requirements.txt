@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+aiogram
+python-dotenv
+requests
+httpx
+soundfile
+supabase

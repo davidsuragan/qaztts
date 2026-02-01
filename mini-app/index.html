@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>QazTTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { margin: 0; padding: 0; background: #11141f; color: white; font-family: 'Inter', sans-serif; min-height: 100vh; overflow-x: hidden; }
+        #app-container { width: 100%; min-height: 100vh; position: relative; }
+        .auth-loader { 
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            text-align: center; padding: 20px; width: 100%; max-width: 300px; z-index: 9999;
+        }
+        .auth-loader i { font-size: 40px; color: #5856d6; margin-bottom: 20px; }
+        .auth-loader p { font-size: 15px; color: #8a91a5; margin-top: 10px; line-height: 1.5; }
+    </style>
+</head>
+<body>
+    <div id="app-container">
+        <div class="auth-loader" id="auth-loading">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+            <p>Жүктелуде...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

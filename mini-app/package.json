@@ -1,0 +1,9 @@
+{
+  "name": "qaztts-mini-app",
+  "version": "1.0.0",
+  "description": "QazTTS Telegram Mini App",
+  "main": "index.html",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

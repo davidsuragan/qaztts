@@ -1,0 +1,18 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  included_files = ["netlify/functions/get-ui-assets/**"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  UBUNTU_VERSION = "22.04"
