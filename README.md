@@ -67,6 +67,13 @@ vercel --prod
 `mini-app/` папкасын Netlify-ға деплой жасаңыз. Баптаулар `netlify.toml` арқылы
 автоматты түрде реттеледі.
 
+## Қосымшалар
+
+- [Extension](https://github.com/davidsuragan/qaztts-extentions): QazTTS мәтінді
+  сөйлету браузерге арналған кеңейтімі.
+- [WhatsApp Bot](https://github.com/davidsuragan/qaztts-whatsapp-bot): QazTTS -
+  Мәтінді сөйлететін WhatsApp боты.
+
 ## Қолданылған ресурстар
 
 - [Edge TTS](https://github.com/rany2/edge-tts) — Microsoft Edge-тің дауыстау
